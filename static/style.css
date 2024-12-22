@@ -1,0 +1,109 @@
+/* Basic Page Styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #22457a; /* Darker blue for heading */
+}
+
+/* Container for Charts and Controls */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Stock Selection Area */
+.stock-selector {
+    margin-bottom: 20px;
+}
+
+.stock-selector label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.stock-selector input[type="text"],
+.stock-selector select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Chart Container */
+#chart-container {
+    width: 100%;
+    height: 500px; /* Adjust as needed */
+}
+
+/* Individual Chart Styling (Plotly Specific - Adjust if using another library) */
+.js-plotly-plot .plotly .modebar {
+    background-color: #f8f9fa; /* Light gray background for Plotly modebar */
+    border-radius: 5px;
+}
+
+.js-plotly-plot .plotly .modebar .modebar-btn {
+    color: #333; /* Darker color for modebar icons */
+}
+
+.js-plotly-plot .plotly .modebar .modebar-btn:hover {
+    background-color: #e9ecef; /* Slightly darker on hover */
+}
+
+/* Indicator Controls */
+.indicator-controls {
+    margin-top: 20px;
+}
+
+.indicator-controls label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* General Input Styling */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #28a745; /* Green button */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Table Styling (If you have data tables) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
